@@ -1,0 +1,39 @@
+@use '../utility/' as *;
+
+#main__nav {
+
+  .logo__container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: $dark;
+
+    .logo {
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      margin-right: 0.25rem;
+    }
+
+    .logo__title {
+      font-weight: 300;
+      margin-top: 0.75rem;
+    }
+  }
+
+  .list {
+    li {
+      list-style: none;
+
+      a {
+        padding: 0 1rem;
+        color: $dark;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

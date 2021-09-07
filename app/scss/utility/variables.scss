@@ -1,0 +1,28 @@
+// Font Family: Lato (Titles) and Poppins (Content)
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+// Fonts
+$title_font: 'Lato', sans-serif;
+$content_font: 'Poppins', sans-serif;
+
+// Maximum Width
+$max_width: 1440px;
+
+// Color Palette
+$primary: #0057FF;
+$secondary: #FFC700;
+
+// Backgrounds
+$light: #fff;
+$mid_light: #F5F5F5;
+
+$dark: #333;
+$content: #494949;
+$label_80: rgba(73, 73, 73, 0.8);
+$label_60: rgba(73, 73, 73, 0.6);
+
+$overlay: rgba(63, 63, 63, 0.3);
+$box-shadow: rgba(0, 0, 0, 0.3);
+
+// Button Overlay
+$primary_overlay: rgba(0, 87, 255, 0.5);

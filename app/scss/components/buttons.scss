@@ -1,0 +1,24 @@
+@use '../utility/' as *;
+
+%btn__shared {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: rem(50);
+    transition: box-shadow 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn {
+    &__bl {
+        @extend %btn__shared;
+        background-color: $primary;
+        color: $light;
+        box-shadow: 0 rem(3) rem(12) $primary_overlay;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}

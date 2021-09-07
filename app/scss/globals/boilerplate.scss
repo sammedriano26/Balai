@@ -1,0 +1,121 @@
+@use '../utility/' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: $content_font;
+}
+
+.container {
+  max-width: $max_width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+// Flex Properties
+.flex {
+  display: flex;
+  align-items: center;
+
+  &__col {
+    flex-direction: column;
+  }
+
+  &__c {
+    justify-content: center;
+  }
+
+  &__sb {
+    justify-content: space-between;
+  }
+
+  &__sa {
+    justify-content: space-around;
+  }
+
+  &__se {
+    justify-content: space-evenly;
+  }
+}
+
+// Vertical Padding
+.px-1 {
+  padding: 0 1rem;
+}
+.px-2 {
+  padding: 0 1.5rem;
+}
+.px-3 {
+  padding: 0 2rem;
+}
+.px-4 {
+  padding: 0 3rem;
+}
+
+// Vertical Margin
+.mx-1 {
+  margin: 0 1rem;
+}
+.mx-2 {
+  margin: 0 1.5rem;
+}
+.mx-3 {
+  margin: 0 2rem;
+}
+.mx-4 {
+  margin: 0 3rem;
+}
+
+// Vertical Padding
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+
+// Vertical Margin
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}

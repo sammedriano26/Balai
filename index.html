@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+    <title>Balai | Your trusted partner in finding your brand new home.</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <script defer src="/dist/script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="main__header" class="main__header">
+
+        <!-- Nav Bar -->
+        <nav id="main__nav" class="main__nav">
+            <div class="container flex flex__sb">
+                <a href="index.html" class="logo__container flex">
+                    <img src="/app/img/balai_logo.svg" alt="Balai Logo" class="logo">
+                    <h2 class="logo__title">Balai</h2>
+                </a>
+
+                <ul class="list list__middle flex flex__se">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="list list__right flex flex__se">
+                    <li><a href="#">Register</a></li>
+                    <button type="submit" class="btn__bl">Sign In</button>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Search Bar -->
+        <section id="showcase" class="showcase">
+            <div class="container">
+                <h1 class="showcase__title">Looking for a home in the city?</h1>
+
+                <form action="#" method="POST" class="form__container">
+                    <div class="input__container">
+                        <label for="location">Location</label>
+                        <input type="text" name="location" placeholder="Try 'Cebu City'" required>
+                    </div>
+
+                    <div class="input__container">
+                        <label for="property_type">Property Type</label>
+                        <input type="text" name="property_type" placeholder="House & Lot" required>
+                    </div>
+
+                    <div class="input__container">
+                        <label for="price__range">Price Range</label>
+                        <input type="number" name="price__range" placeholder="1.5M to 2.5M" required>
+                    </div>
+
+                    <div class="input__container">
+                        <label for="bedrooms"># of Bedrooms</label>
+                        <input type="number" name="bedrooms" placeholder="Number of Bedrooms" required>
+                    </div>
+
+                    <input type="submit" value="Find Property" class="btn__bl">
+                </form>
+            </div>
+        </section>
+    </header>
+</body>
+</html>
